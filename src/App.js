@@ -11,13 +11,19 @@ import "./App.css";
 // import EventBind from "./components/EventBind";
 // import ParentComponent from "./components/ParentComponent";
 // import UserGreeting from "./components/UserGreeting";
-import NameList from "./NameList";
+// import NameList from "./components/NameList";
+// import Condition from "./components/Conditional";
+// import HomePage from "./Practice/HomePage";
+import IndexAsKey from "./components/IndexAsKey";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <NameList />
+        <IndexAsKey />
+        {/* <HomePage /> */}
+        {/* <Condition /> */}
+        {/* <NameList /> */}
         {/* <UserGreeting /> */}
         {/* <ParentComponent /> */}
         {/* <EventBind /> */}

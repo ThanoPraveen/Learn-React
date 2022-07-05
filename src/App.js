@@ -13,13 +13,15 @@ import "./App.css";
 // import UserGreeting from "./components/UserGreeting";
 // import NameList from "./components/NameList";
 // import Condition from "./components/Conditional";
-import HomePage from "./Practice/HomePage";
+// import HomePage from "./Practice/HomePage";
+import IndexAsKey from "./components/IndexAsKey";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <HomePage />
+        <IndexAsKey />
+        {/* <HomePage /> */}
         {/* <Condition /> */}
         {/* <NameList /> */}
         {/* <UserGreeting /> */}

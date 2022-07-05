@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 
 function Practice() {
   const Persons = [
     {
       name: "ajay",
-      age: 23,
+      age: 23
     },
     {
       name: "vijay",
-      age: 43,
-    },
+      age: 43
+    }
   ];
 
   const PersonList = Persons.map((person) => (

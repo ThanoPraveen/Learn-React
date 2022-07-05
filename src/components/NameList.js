@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Person from "./components/Person";
+import Person from "./Person";
 
 function NameList() {
   const persons = [
@@ -7,20 +7,20 @@ function NameList() {
       id: 1,
       name: "Praveen",
       age: 23,
-      skill: "React",
+      skill: "React"
     },
     {
       id: 2,
       name: "kishor",
       age: 17,
-      skill: "none",
+      skill: "none"
     },
     {
       id: 3,
       name: "harini",
       age: 10,
-      skill: "Good Reading",
-    },
+      skill: "Good Reading"
+    }
     // {
     //   name: "vishwa",
     // },

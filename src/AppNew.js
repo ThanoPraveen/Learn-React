@@ -7,6 +7,7 @@ class AppNew extends Component {
     return (
       <div className="AppNew">
         <Form />
+        {/*  */}
       </div>
     );
   }

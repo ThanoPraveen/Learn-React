@@ -1,27 +1,25 @@
 import React from "react";
-import LifecycleB from "./LifecycleB";
 
-class LifecycleA extends React.Component {
+class LifecycleB extends React.Component {
   constructor(props) {
     super(props);
 
-    // Normally run the page
     // step 1 /
     this.state = {
       name: "Praveen Kumar"
     };
-    console.log("LifecycleA constructor");
+    console.log("LifecycleB constructor");
   }
 
   // step 2
   static getDerivedStateFromProps(props, state) {
-    console.log("LifecycleA getDerievedStateFromProps");
+    console.log("LifecycleB getDerievedStateFromProps");
     return null;
   }
 
   // step 4
   componentDidMount() {
-    console.log("LifecycleA componentDidMount");
+    console.log("LifecycleB componentDidMount");
   }
 
   render() {
@@ -29,11 +27,10 @@ class LifecycleA extends React.Component {
     console.log("Lifecycle A Rendering in console");
     return (
       <div>
-        <h2>Lifecycle A</h2>
-        <LifecycleB />
+        <h2>Lifecycle B</h2>
       </div>
     );
   }
 }
 
-export default LifecycleA;
+export default LifecycleB;

@@ -6,7 +6,6 @@ class AppNew extends Component {
   render() {
     return (
       <div className="AppNew">
-        {/*  */}
         <LifecycleA />
       </div>
     );

@@ -11,21 +11,23 @@ import "./App.css";
 // import EventBind from "./components/EventBind";
 // import ParentComponent from "./components/ParentComponent";
 // import UserGreeting from "./components/UserGreeting";
-import NameList from "./components/NameList";
+// import NameList from "./components/NameList";
 // import Condition from "./components/Conditional";
 // import HomePage from "./Practice/HomePage";
 // import IndexAsKey from "./components/IndexAsKey";
 // import StyleSheet from "./components/StyleSheet";
-import InlineStyle from "./components/InlineStyle";
+// import InlineStyle from "./components/InlineStyle";
 // Normally imported in the appStyles.css access to parent and all child component
 import "./appStyles.css";
 // appStyles.module.css -> is only access for this parent component
 // import styles from "./appStyles.module.css";
+import Form from "./components/Form";
 
 class AppOld extends Component {
   render() {
     return (
       <div className="App">
+        <Form />
         {/* <h1 className="error">Error</h1> */}
         {/* <h1 className={styles.success}>success</h1> */}
         {/*stylesheet step - 5 / component and props value  */}
@@ -34,7 +36,7 @@ class AppOld extends Component {
         {/* <IndexAsKey /> */}
         {/* <HomePage /> */}
         {/* <Condition /> */}
-        <NameList />
+        {/* <NameList /> */}
         {/* <UserGreeting /> */}
         {/* <ParentComponent /> */}
         {/* <EventBind /> */}
